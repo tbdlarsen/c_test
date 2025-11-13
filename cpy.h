@@ -1,0 +1,1 @@
+void* cpy(void* destination, const void* source, size_t n);

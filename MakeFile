@@ -5,7 +5,7 @@ LIBS = -lcunit
 all: test
 
 test: main.c test_cpy.c cpy.c
-	$(CC) $(CFLAGS) -o test_cpy $^ $(LIBS)
+	$(CC) $(CFLAGS) $^ -o test_cpy  $(LIBS)
 
 run: test
 	./test_cpy

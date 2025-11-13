@@ -1,4 +1,4 @@
-#include "test_cpy.c"
+#include "test_cpy.h"
 
 
 
